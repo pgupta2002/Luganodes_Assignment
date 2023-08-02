@@ -1,0 +1,7 @@
+-> Firewalld is a type of software-based firewall freature available in Linux.
+-> It works with the concept of zones which helps in segregating and simplifying the configuration.
+-> One of the main adv. is we have the liberty to change rules in real time without having any sort of interuptions.
+-> Also, this is protocol independent of IPv4 and IPv6
+-> Each network card inside the machine is linked to one of the available zones.
+-> Every available firewall-service has a seperate XML file available.
+-> Almost all of these firewall-services are disabled by the firewall. Only a few which are default are added in the firewall-zones

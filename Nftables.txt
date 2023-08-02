@@ -1,0 +1,12 @@
+-> This was an updated version of previously used IPtables for packet filtering. 
+-> The syntax for Nftable commands are - 
+nft [action] table [family-type] block_pkts
+-> Thera are two types of tables used in Nftables. The base chain and regular chain.
+-> The syntax for base chain is -
+nft [action] chain [family-type] [table_name] [chain_name] {
+    type [type of chain] hook [hook_type] priority [number]; policy [policy type];
+}
+-> The syntax for regular chain is - 
+nft [action] chain [family-type] [table_name] [chain_name]
+-> The syntax for defining rules are - 
+nft [action] rule [table_name] [chain_name] ip daddr [ip_of_destination] counter
